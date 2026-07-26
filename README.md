@@ -61,13 +61,6 @@ The models were evaluated using five-fold Stratified Group Cross-Validation.
 | LightGBM               | 6.234             | 0.2403              |
 | CatBoost               | 15.976            | 0.3050              |
 
-CatBoost achieved the strongest overall cross-validation performance. LightGBM produced a similar F1-score while requiring approximately 6.2 seconds for training, compared with approximately 16.0 seconds for CatBoost.
-
-Therefore, LightGBM was retained as the strongest classical deployment candidate because it offered a favorable balance between predictive performance and computational efficiency. It was later superseded by the DeBERTa NLI approach following external counterfactual evaluation.
-
-> Runtime measurements depend on the hardware, software environment, dataset size, and system load. The values above are relative measurements obtained in the same experimental environment.
-
-
 CatBoost achieved the strongest overall cross-validation performance, with the highest Accuracy, Precision, and F1-score. However, LightGBM provided a favorable balance between predictive quality and computational efficiency: its training time was approximately 6.2 seconds compared with approximately 16.0 seconds for CatBoost, while the difference in F1-score was relatively small.
 
 Therefore, LightGBM was retained as the strongest classical deployment candidate. This decision was later reconsidered after the external counterfactual evaluation showed that high in-distribution performance did not necessarily indicate reliable factual generalization.
