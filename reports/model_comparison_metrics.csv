@@ -1,0 +1,8 @@
+approach,Accuracy,Precision,Recall,F1-score
+Baseline BERT,47.5,46.7,35.0,40.0
+"Evidence-aware
+BERT",50.0,50.0,15.0,23.1
+"DeBERTa
+Groundedness",75.0,66.7,100.0,80.0
+"DeBERTa
+Contradiction",97.5,100.0,95.0,97.4
