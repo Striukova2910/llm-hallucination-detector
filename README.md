@@ -171,6 +171,8 @@ The model correctly classified 39 of the 40 counterfactual examples. The only mi
 | DeBERTa strict groundedness   |    75.0% |     66.7% | 100.0% |    80.0% |
 | DeBERTa contradiction-focused |    97.5% |    100.0% |  95.0% |    97.4% |
 
+![OOD Counterfactual Stress Test: Model Comparison](reports/ood_model_comparison.png)
+
 ## Final Deployment Prototype
 
 The contradiction-focused pretrained DeBERTa NLI model was selected as the final deployment prototype.
